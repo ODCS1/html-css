@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: androf;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body{
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #62ad83, #1a5c38);
+    margin: -21px -8px 5px -8px;
+    padding: 10px 5px;
+    color: white;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    background-color: #62ad83;
+    border-radius: 5px;
+}
+nav{
+    padding-top: 16px;
+    margin-top: 10px;
+    
+}
+
+.cen{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+}
+#cen{
+    text-align: center;
+    font-style: oblique;
+    width: 442px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.755);
+    padding-left: 0px;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -5px;
+    box-shadow: 5px 5px 15px #4d8465;
+    padding: 1px;
+}
+
+.link{
+    color: green;
+    padding: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+
+article{
+    background-color: #97b5a4;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.barra{
+    padding-left: 15px;
+}
+
+h1{
+    font-family: androf;
+    color: #1a5c38;
+}
+.pad{
+    padding-left: 15px;
+}
+h2{
+    font-family: androf;
+    background-image: linear-gradient(to right, #C6ECD6, white);
+    color: #1a5c38;
+}
+
+footer{
+    text-align: center;
+    background-color: #1a5c38;
+    color: white;
+    margin-top: 15px;
+}
+#video{
+    width: 560px;
+    background-color: #1a5c38;
+    padding: 10px 220px;
+}
+img{
+    padding: 0px auto;
+}
+section{
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+main p{
+    text-align: justify;
+}
