@@ -28,8 +28,6 @@
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
-    min-width: 280px;
-    max-width: 1000px;
 }
 
 header{
@@ -77,6 +75,8 @@ nav a:hover{
 
 main{
     background-color: white;
+    min-width: 280px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
