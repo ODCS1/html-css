@@ -25,6 +25,9 @@ Grandes Telas: 1200px +
         text-shadow: none;
         color: black;
     }
+    main::after{
+        content: 'Essa impressão foi feita através de um exercício sobre media query';
+    }
 
     img#phone{display: none;}
     img#tablet{display: none;}
