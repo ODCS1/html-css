@@ -12,6 +12,11 @@ Grandes Telas: 1200px +
 */
 
 @media print{
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     body{
         background-image: url(../imagens/back-print.jpg);
         /*desnecessário porque não se imprime background*/
