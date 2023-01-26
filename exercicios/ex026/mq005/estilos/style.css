@@ -13,10 +13,10 @@ html{
 
 header{
     background-color: gray;
-    text-align: center;
 }
 header h1{
     padding: 10px;
+    text-align: center;
 }
 
 span#burguer{
@@ -25,6 +25,7 @@ span#burguer{
     display: block;
     padding: 10px;
     cursor: pointer;
+    text-align: center;
 }
 span#burguer:hover{
     background-color: rgb(179, 179, 179);
@@ -44,9 +45,10 @@ menu > ul > li > a{
     background-color: rgb(82, 82, 82);
     padding: 10px;
     border-top: 2px solid gray;
+    text-align: center;
 }
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: rgb(113, 113, 113);
 }
 
 main{
